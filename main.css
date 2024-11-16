@@ -1,3 +1,38 @@
-p {
-    max-width: 250px;
+:root {
+    --highlight-color: #B16286;
+    --url-color: #458588;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--highlight-color);
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
 }

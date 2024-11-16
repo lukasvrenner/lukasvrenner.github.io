@@ -1,30 +1,18 @@
-/* colors for light mode */
+:root {
+    --light-bg: #DEEEEE;
+    --text-light: #121212;
+}
+
 @media (prefers-color-scheme: light) {
     body {
-        background-color: #DEEEEE
+        background-color: var(--light-bg);
+        color: var(--text-dark);
     }
-
-    h1 {
-        color: #121212;
+    h1, h2, h3, p, pre {
+        color: var(--text-dark);
     }
-
-    h2 {
-        color: #121212;
-    }
-
-    h3 {
-        color: #121212;
-    }
-
-    p {
-        color: #121212;
-    }
-    
-    pre {
-        color: #121212;
-    }
-
     a {
-        color: #3388FF;
+        color: var(--url-color);
     }
 }
+

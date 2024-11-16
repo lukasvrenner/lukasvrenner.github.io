@@ -1,25 +1,19 @@
-/* colors for dark mode */
+:root {
+    --dark-bg: #282828;
+    --text-dark: #EBDBB2;
+}
+
+/* Dark Mode Colors */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #121212;
+        background-color: var(--dark-bg);
+        color: var(--text-dark);
     }
-    h1 {
-        color: #DEEEEE;
-    }
-    h2 {
-        color: #DEEEEE;
-    }
-    h3 {
-        color: #DEEEEE;
-    }
-    p {
-        color: #DEEEEE;
-    }
-    pre {
-        color: #DEEEEE;
+    h1, h2, h3, p, pre {
+        color: var(--text-dark);
     }
     a {
-        color: #3388FF;
+        color: var(--url-color);
     }
 }
 
