@@ -5,12 +5,22 @@
 
 body {
     margin: 0 auto;
-    max-width: 800px;
-    line-height: 1.6;
+    max-width: 1000px;
+    font-size: 1.25em;
 }
 
-h1, h2, h3 {
+header {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    margin: 0.5rem;
 }
 
 a {
@@ -19,11 +29,6 @@ a {
 
 a:hover {
     color: var(--highlight-color);
-}
-
-header {
-    text-align: center;
-    padding: 2rem 0;
 }
 
 footer {
