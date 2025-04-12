@@ -1,17 +1,8 @@
-:root {
-    --light-bg: #DEEEEE;
-    --text-light: #121212;
-}
 
 @media (prefers-color-scheme: light) {
-    body {
-        background-color: var(--light-bg);
-        color: var(--text-light);
-    }
-    h1, h2, h3, p, pre {
-        color: var(--text-light);
-    }
-    a {
-        color: var(--url-color);
+    :root {
+        --bg: #DEEEEE;
+        --bg-1: #EBDBB2;
+        --text: #121212;
     }
 }
